@@ -8,13 +8,13 @@ function rollDice(){
     //Player 1 action
     var roll1 = randomNum();
     var diceImg1 = "dice" + roll1 + ".png";
-    var location1 = "images/dice-imgs/" + diceImg1;
+    var location1 = "../images/dice-imgs/" + diceImg1;
     document.querySelectorAll("img")[0].setAttribute("src", location1);
 
     //Player 2 action
     var roll2 = randomNum();
     var diceImg2 = "dice" + roll2 + ".png";
-    var location2 = "images/dice-imgs/" + diceImg2;
+    var location2 = "../images/dice-imgs/" + diceImg2;
     document.querySelectorAll("img")[1].setAttribute("src", location2);
 
     console.log("Roll1: " + roll1 + "       Roll2: " + roll2);
