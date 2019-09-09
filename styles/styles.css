@@ -52,6 +52,7 @@ html, body {
 
 .contact-me {
     text-align: center;
+    padding-top:10rem
 }
 
 .about-me-btn {
@@ -123,6 +124,8 @@ html, body {
 footer {
     text-align: center;
     background-color: #517efb;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 /*********** Main Page - content ******/
@@ -136,7 +139,7 @@ footer {
 /*********** Projects Page ***********/
 .projects {
     text-align: center;
-    padding: 3rem;
+    padding-top: 10rem;
 }
 
 button {
