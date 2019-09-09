@@ -15,6 +15,7 @@ html, body {
     overflow: hidden;
     background-color: #517efb;
     opacity: 0.8;
+    z-index: 2;
 }
 
     .navbar a {
